@@ -1,0 +1,36 @@
+heading_title = Composer
+module_co_title = Composer
+module_co_short_title = Composer
+
+text_modules_app_composer = Composer
+text_configure =  configure App Module
+
+text_intro = This app allow you to dislay modules_app_composer. <br /><br />
+- Click on Configure to access / install or uninstall the app.<br />
+- The App is located in Tools<br />
+
+module_co_introduction = The install process create Composer and the access menu
+
+button_back = Back
+button_install_title = Install
+button_configure = Configure
+button_save = Save
+button_dialog_uninstall =  Uninstall
+button_uninstall =  Uninstall
+button_delete = Delete
+button_cancel = Cancel
+button_modules_app_composer_access = Composer
+button_reset = Reset
+button_update = Update
+
+dialog_uninstall_title = Uninstall
+dialog_uninstall_body = Do you want install this App ?
+dialog_uninstall_title = Uninstall Module?
+dialog_uninstall_body = Are you sure you want to uninstall this module?
+
+alert_module_install_success = Module has been successfully installed.
+alert_module_uninstall_success = Module has been successfully uninstalled.
+alert_cfg_saved_success = Configuration parameters have been successfully saved.
+
+text_heading_library = Library
+text_heading_version = Version
