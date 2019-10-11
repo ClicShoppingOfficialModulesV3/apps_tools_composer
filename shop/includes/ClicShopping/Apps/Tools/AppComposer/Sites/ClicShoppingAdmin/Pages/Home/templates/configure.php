@@ -25,28 +25,13 @@
     echo $CLICSHOPPING_MessageStack->get('AppComposer');
   }
 ?>
-<style>
-  .sitePill {
-    color: #fff;
-    background-color: #009933;
-    border-radius: 20px;
-    padding: 5px 10px;
-  }
-
-  .appPill {
-    color: #fff;
-    background-color: #0066CC;
-    border-radius: 20px;
-    padding: 5px 10px;
-  }
-</style>
 <div class="contentBody">
   <div class="row">
     <div class="col-md-12">
       <div class="card card-block headerCard">
         <div class="row">
           <span
-            class="col-md-1 logoHeading"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . '/categories/app_composer.png', $CLICSHOPPING_AppComposer->getDef('heading_title'), '40', '40'); ?></span>
+            class="col-md-1 logoHeading"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . '/categories/composer.png', $CLICSHOPPING_AppComposer->getDef('heading_title'), '40', '40'); ?></span>
           <span
             class="col-md-4 pageHeading"><?php echo '&nbsp;' . $CLICSHOPPING_AppComposer->getDef('heading_title'); ?></span>
           <span

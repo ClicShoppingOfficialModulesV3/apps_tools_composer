@@ -33,4 +33,12 @@ alert_module_uninstall_success = Module has been successfully uninstalled.
 alert_cfg_saved_success = Configuration parameters have been successfully saved.
 
 text_heading_library = Library
-text_heading_version = Version
+text_heading_version_installed = Version installée
+text_heading_online_version = Dernière version online
+
+text_info_warning = Make an update can make errors insde your apps, take information before to make that.
+text_clear_cache = Clear cache
+text_update_all = Update all
+
+text_error_composer = Composer is not installed, please make this command on your server in your terminal : apt-get install composer
+text_error_exec = exec function is not enabled. You can not update or install any composer library, please this setting in your php.ini or contact your hoster

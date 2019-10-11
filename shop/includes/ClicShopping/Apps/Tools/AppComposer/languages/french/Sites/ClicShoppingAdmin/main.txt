@@ -37,4 +37,12 @@ table_heading_vendor = Vendor
 table_heading_version = Version
 
 text_heading_library = Librarie
-text_heading_version = Version
+text_heading_version_installed = Version intalled
+text_heading_online_version = Latest online version
+
+text_info_warning = Faire une mise peut entrainer des error dans votre app, veuilez vous renseigner avant de réaliser une action
+text_clear_cache = Effacer le cache
+text_update_all = Tout mettre à jour
+
+text_error_composer = Composer n'est pas installer sur votre machine, veuillez réaliser cette commande dans votre terminal : apt-get install composer
+text_error_exec = La fonction exec n'est pas initialisé. Vous ne pouvez pas réaliser de mise à jour ou d'installation d'une librairie Composer. Veuillez vérifier votre php.ini ou contacter votre hébergeur
