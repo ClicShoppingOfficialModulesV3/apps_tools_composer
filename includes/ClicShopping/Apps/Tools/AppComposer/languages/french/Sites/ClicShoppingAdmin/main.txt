@@ -40,7 +40,7 @@ text_heading_library = Librarie
 text_heading_version_installed = Version intalled
 text_heading_online_version = Latest online version
 
-text_info_warning = Faire une mise peut entrainer des error dans votre app, veuilez vous renseigner avant de réaliser une action
+text_info_warning = Faire une mise peut entrainer des erreurs dans votre app, veuilez vous renseigner avant de réaliser une action
 text_clear_cache = Effacer le cache
 text_update_all = Tout mettre à jour
 

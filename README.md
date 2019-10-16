@@ -6,15 +6,22 @@ You can :
 - Update a specific library
 - Clear the cache
 
-If you update a library, it can create an error inside the apps; Make be carefull before to make an action
-Important Note :
-
-Copy the apps_tools_composer.json into ClicShopping/Work/Cache/Github
-
 licence  : GPL 2 - MIT
+
 language : French / English
 
+
+Important Note :
+
+This apps can make some update, but if the composer is not installed or you can not use exec function,
+
+It will no able to make an update via the graphic interface.
+
+If you update a library, it can create an error inside the apps; Make be carefull before to make an action
+
+
 Install :
+Copy the apps_tools_composer.json into ClicShopping/Work/Cache/Github
 
 https://monsite/myAdmin/index.php?A&Tools\appComposer
 
