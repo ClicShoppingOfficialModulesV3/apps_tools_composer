@@ -25,7 +25,7 @@
     <div class="col-md-12">
       <div class="card card-block headerCard">
         <div class="row">
-          <span class="col-md-1"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . '/categories/composer.png', $CLICSHOPPING_AppComposer->getDef('heading_title'), '40', '40'); ?></span>
+          <span class="col-md-1"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . 'categories/composer.png', $CLICSHOPPING_AppComposer->getDef('heading_title'), '40', '40'); ?></span>
           <span class="col-md-4 pageHeading"><?php echo '&nbsp;' . $CLICSHOPPING_AppComposer->getDef('heading_title'); ?></span>
           <span class="col-md-7 text-md-right">
             <?php echo '&nbsp;' . HTML::button($CLICSHOPPING_AppComposer->getDef('text_clear_cache'), null, $CLICSHOPPING_AppComposer->link('ClearCache'), 'warning'); ?>
