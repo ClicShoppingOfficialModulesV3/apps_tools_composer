@@ -16,7 +16,7 @@
     public function execute()
     {
       $CLICSHOPPING_Composer = Registry::get('Composer');
-exit;
+
       if (isset($_GET['Composer']) && isset($_GET['ClearCache'])) {
         $CLICSHOPPING_Composer->clearCache();
       }

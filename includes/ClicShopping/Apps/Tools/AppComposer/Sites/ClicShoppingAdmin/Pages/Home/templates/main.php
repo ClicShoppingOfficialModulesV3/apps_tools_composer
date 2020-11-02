@@ -16,8 +16,8 @@
   $CLICSHOPPING_AppComposer = Registry::get('AppComposer');
   $CLICSHOPPING_MessageStack = Registry::get('MessageStack');
 
-  if ($CLICSHOPPING_MessageStack->exists('AppComposer')) {
-    echo $CLICSHOPPING_MessageStack->get('AppComposer');
+  if ($CLICSHOPPING_MessageStack->exists('main')) {
+    echo $CLICSHOPPING_MessageStack->get('main');
   }
 ?>
 <div class="contentBody">

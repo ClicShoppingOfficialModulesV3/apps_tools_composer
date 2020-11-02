@@ -21,8 +21,8 @@
 
   $CLICSHOPPING_AppComposer_Config = Registry::get('AppComposerAdminConfig' . $current_module);
 
-  if ($CLICSHOPPING_MessageStack->exists('AppComposer')) {
-    echo $CLICSHOPPING_MessageStack->get('AppComposer');
+  if ($CLICSHOPPING_MessageStack->exists('main')) {
+    echo $CLICSHOPPING_MessageStack->get('main');
   }
 ?>
 <div class="contentBody">
