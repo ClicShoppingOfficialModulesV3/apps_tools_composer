@@ -63,7 +63,7 @@
       </thead>
       <tbody>
     <?php
-    if (is_array($json_array)) {
+    if (\is_array($json_array)) {
       foreach ($json_array as $k => $v) {
         $online_version = $CLICSHOPPING_Composer->checkOnlineVersion($k);
     ?>

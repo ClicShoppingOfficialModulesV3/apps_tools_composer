@@ -22,7 +22,7 @@
       $CLICSHOPPING_Composer = Registry::get('Composer');
 
       if(isset($_GET['Update'])) {
-        if (isset($_POST['library']) && !is_null($_POST['library'])) {
+        if (isset($_POST['library']) && !\is_null($_POST['library'])) {
           $library = HTML::sanitize($_POST['library']);
 
           $result = $CLICSHOPPING_Composer->update($library);
