@@ -27,7 +27,7 @@
         <div class="row">
           <span class="col-md-1"><?php echo HTML::image($CLICSHOPPING_Template->getImageDirectory() . 'categories/composer.png', $CLICSHOPPING_AppComposer->getDef('heading_title'), '40', '40'); ?></span>
           <span class="col-md-4 pageHeading"><?php echo '&nbsp;' . $CLICSHOPPING_AppComposer->getDef('heading_title'); ?></span>
-          <span class="col-md-7 text-md-right">
+          <span class="col-md-7 text-end">
             <?php echo '&nbsp;' . HTML::button($CLICSHOPPING_AppComposer->getDef('text_clear_cache'), null, $CLICSHOPPING_AppComposer->link('ClearCache'), 'warning'); ?>
             <?php echo '&nbsp;' . HTML::button($CLICSHOPPING_AppComposer->getDef('text_update_all'), null, $CLICSHOPPING_AppComposer->link('Update'), 'success'); ?>
           </span>
@@ -64,6 +64,8 @@
       <tbody>
     <?php
     if (\is_array($json_array)) {
+      $i = 0;
+      
       foreach ($json_array as $k => $v) {
         $online_version = $CLICSHOPPING_Composer->checkOnlineVersion($k);
     ?>
@@ -71,7 +73,7 @@
           <td><?php echo $k; ?></td>
           <td><?php echo $v; ?></td>
           <td><?php echo $online_version; ?></td>
-          <td class="text-md-right">
+          <td class="text-end">
             <?php
               echo HTML::form('update' . $i++, $CLICSHOPPING_AppComposer->link('Update'));
               echo HTML::hiddenField('library', $k);
